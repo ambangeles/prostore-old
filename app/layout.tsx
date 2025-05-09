@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "@/assets/styles/globals.css";
 import { APP_DESCRIPTION, APP_NAME, SERVER_URL } from "@/lib/constants";
 import { ThemeProvider } from "next-themes";
+import Script from "next/script";
 
 const inter = Inter({
 	variable: "--font-inter",
@@ -35,6 +36,19 @@ export default function RootLayout({
 					{children}
 				</ThemeProvider>
 			</body>
+			<Script
+				id="arto-chat-script"
+				strategy="afterInteractive"
+				type="module"
+				dangerouslySetInnerHTML={{
+					__html: `
+        import Arto from "https://assets.arto.chat/arto.js";
+        Arto.init({
+          uuid: "70cdc8d1-b294-4cfa-a448-927978bedb67"
+        });
+      `,
+				}}
+			/>
 		</html>
 	);
 }
