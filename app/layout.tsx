@@ -40,11 +40,12 @@ export default function RootLayout({
 				id="arto-chat-script"
 				strategy="afterInteractive"
 				type="module"
+				crossOrigin="anonymous"
 				dangerouslySetInnerHTML={{
 					__html: `
         import Arto from "https://assets.arto.chat/arto.js";
         Arto.init({
-          uuid: "70cdc8d1-b294-4cfa-a448-927978bedb67"
+          uuid: "a28b8cc9-c94b-4e6b-9d62-37f6a3752822"
         });
       `,
 				}}
