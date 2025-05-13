@@ -45,7 +45,7 @@ export default function RootLayout({
 					__html: `
         import Arto from "https://assets.arto.chat/arto.js";
         Arto.init({
-          uuid: "b618fc62-03c6-4985-a980-feefb27364c6"
+          uuid: "92ef1d12-6f67-462f-94a5-9c199e14b323"
         });
       `,
 				}}
