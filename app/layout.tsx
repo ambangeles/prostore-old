@@ -43,9 +43,9 @@ export default function RootLayout({
 				crossOrigin="anonymous"
 				dangerouslySetInnerHTML={{
 					__html: `
-					import Arto from "https://ucarecdn.com/a384da02-2386-4ff0-a531-60492ac48258/arto.js";
+					import Arto from "https://assets.arto.chat/arto.js";
 						Arto.init({
-							uuid: "57cf67a1-0320-44d1-8c1d-5335898124bf"
+							uuid: "70825f96-21ae-4221-a6d4-4c7754c961a4"
 						});
 				`,
 				}}
