@@ -45,7 +45,7 @@ export default function RootLayout({
 					__html: `
 					import Arto from "https://ucarecdn.com/a384da02-2386-4ff0-a531-60492ac48258/arto.js";
 						Arto.init({
-							uuid: "70825f96-21ae-4221-a6d4-4c7754c961a4"
+							uuid: "827e7d06-e77d-4eb3-a0b5-30919222c1bb"
 						});
 				`,
 				}}
