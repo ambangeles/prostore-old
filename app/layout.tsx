@@ -45,7 +45,7 @@ export default function RootLayout({
 					__html: `
 					import Arto from "https://assets.arto.chat/arto.js";
 						Arto.init({
-    uuid: "a28b8cc9-c94b-4e6b-9d62-37f6a3752822",
+    uuid: "827e7d06-e77d-4eb3-a0b5-30919222c1bb",
     theme: {
       logo: "https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg",
       triggerButtonIcon: "https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg",
