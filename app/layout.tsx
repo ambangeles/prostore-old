@@ -43,7 +43,7 @@ export default function RootLayout({
 				crossOrigin="anonymous"
 				dangerouslySetInnerHTML={{
 					__html: `
-					import Arto from "https://assets.arto.chat/arto.js";
+					import Arto from "https://ucarecdn.com/7a5d7a31-7ba2-4e0f-892a-43829df1ddb7/arto.js";
 						Arto.init({
     uuid: "827e7d06-e77d-4eb3-a0b5-30919222c1bb",
     theme: {
@@ -51,7 +51,7 @@ export default function RootLayout({
       triggerButtonIcon: "https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg",
       submitButtonIcon: "https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg",
       closeButtonIcon: "https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg",
-      color: "#df8134",
+      color: "#000000",
       userMessageColor: "#29cf26"
     }
   });
