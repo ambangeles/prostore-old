@@ -27,7 +27,7 @@ const Header = () => {
 					<Button type="submit" size="default" aria-label="Search">
 						<Search className="h-4 w-4" />
 					</Button>
-					<a className="rounded-md" href="javascript:void(0)" id="arto-search-button"></a>
+					<a href="javascript:void(0)" id="arto-search-button"></a>
 				</div>
 				<Menu />
 			</div>
