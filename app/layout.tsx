@@ -45,7 +45,7 @@ export default function RootLayout({
 						__html: `
 							import Arto from "https://ucarecdn.com/34af2ae2-1956-43af-8e3e-b8c9a2029a9c/arto.js";
 							Arto.init({
-								uuid: "ba04b9b3-0858-4bc1-b7bc-dba041eee498",
+								uuid: "6f338d3b-28ec-4e51-aae4-3e77727658ed",
 								widgetType: "search",
 								theme: {
 									triggerButtonColor: "#000000",
