@@ -43,7 +43,7 @@ export default function RootLayout({
 					crossOrigin="anonymous"
 					dangerouslySetInnerHTML={{
 						__html: `
-							import Arto from "https://ucarecdn.com/34af2ae2-1956-43af-8e3e-b8c9a2029a9c/arto.js";
+							import Arto from "https://ucarecdn.com/a4484327-9846-40f0-82c1-5aff635eb184/arto.js";
 							Arto.init({
 								uuid: "6f338d3b-28ec-4e51-aae4-3e77727658ed",
 								widgetType: "search",
