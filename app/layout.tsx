@@ -43,12 +43,12 @@ export default function RootLayout({
 					crossOrigin="anonymous"
 					dangerouslySetInnerHTML={{
 						__html: `
-							import Arto from "https://ucarecdn.com/4bcd7e87-0431-476b-aa58-a67f4dbbe409/arto.js";
+							import Arto from "https://ucarecdn.com/34af2ae2-1956-43af-8e3e-b8c9a2029a9c/arto.js";
 							Arto.init({
 								uuid: "ba04b9b3-0858-4bc1-b7bc-dba041eee498",
 								widgetType: "search",
 								theme: {
-									triggerButtonColor: "#17d33d",
+									triggerButtonColor: "#000000",
 									modalHeaderColor: "#eeff00",
 									userMessageColor: "#e60a0a"
 								}
