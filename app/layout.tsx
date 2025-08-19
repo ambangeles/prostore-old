@@ -35,29 +35,28 @@ export default function RootLayout({
 				>
 					{children}
 				</ThemeProvider>
+
+				<Script
+					id="arto-chat-script"
+					strategy="afterInteractive"
+					type="module"
+					crossOrigin="anonymous"
+					dangerouslySetInnerHTML={{
+						__html: `
+							import Arto from "https://ucarecdn.com/4bcd7e87-0431-476b-aa58-a67f4dbbe409/arto.js";
+							Arto.init({
+								uuid: "ba04b9b3-0858-4bc1-b7bc-dba041eee498",
+								widgetType: "search",
+								theme: {
+									triggerButtonColor: "#17d33d",
+									modalHeaderColor: "#eeff00",
+									userMessageColor: "#e60a0a"
+								}
+							});
+						`,
+					}}
+				/>
 			</body>
-			<Script
-				id="arto-chat-script"
-				strategy="afterInteractive"
-				type="module"
-				crossOrigin="anonymous"
-				dangerouslySetInnerHTML={{
-					__html: `
-					import Arto from "https://ucarecdn.com/7a5d7a31-7ba2-4e0f-892a-43829df1ddb7/arto.js";
-						Arto.init({
-    uuid: "ba04b9b3-0858-4bc1-b7bc-dba041eee498",
-    theme: {
-      logo: "https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg",
-      triggerButtonIcon: "https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg",
-      submitButtonIcon: "https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg",
-      closeButtonIcon: "https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg",
-      color: "#ff0000",
-      userMessageColor: "#29cf26"
-    }
-  });
-				`,
-				}}
-			/>
 		</html>
 	);
 }
