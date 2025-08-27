@@ -43,13 +43,10 @@ export default function RootLayout({
 					crossOrigin="anonymous"
 					dangerouslySetInnerHTML={{
 						__html: `
-							import Arto from "https://ucarecdn.com/52fbbbc7-5d21-4091-a482-70a836be712a/arto.js";
+							import Arto from "https://ucarecdn.com/99ce0ded-87e3-4540-96c6-62fa6641dedb/arto.js";
 							Arto.init({
 								uuid: "6f338d3b-28ec-4e51-aae4-3e77727658ed",
-								theme: {
-									logo: "https://vooba.co.uk/assets/img/voomi/voomi-logo.png",
-									color: "#ffa703",
-								},
+								widgetType: "search",
 							});
 						`,
 					}}
