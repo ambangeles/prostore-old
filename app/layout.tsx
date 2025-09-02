@@ -43,9 +43,9 @@ export default function RootLayout({
 					crossOrigin="anonymous"
 					dangerouslySetInnerHTML={{
 						__html: `
-							import Arto from "https://assets.arto.chat/arto.js";
+							import Arto from "https://ucarecdn.com/99ce0ded-87e3-4540-96c6-62fa6641dedb/arto.js";
 							Arto.init({
-								uuid: "827e7d06-e77d-4eb3-a0b5-30919222c1bb",
+								uuid: "6f338d3b-28ec-4e51-aae4-3e77727658ed",
 								widgetType: "search",
 								theme: {
 									triggerButtonColor: "#008009",
