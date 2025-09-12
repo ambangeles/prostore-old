@@ -8,7 +8,7 @@ import { Search } from "lucide-react";
 
 const Header = () => {
 	return (
-		<header className="w-full border-b">
+		<header className="w-full border-b sticky top-0 z-50 bg-white">
 			<div className="wrapper flex-between">
 				<div className="flex-start">
 					<Link href="/" className="flex-start">
