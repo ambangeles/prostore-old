@@ -43,15 +43,10 @@ export default function RootLayout({
 					crossOrigin="anonymous"
 					dangerouslySetInnerHTML={{
 						__html: `
-							import Arto from "https://ucarecdn.com/99ce0ded-87e3-4540-96c6-62fa6641dedb/arto.js";
+							import Arto from "https://3n7bzx76ox.ucarecd.net/e3600fae-c773-49f2-a14b-8422730c04bb/arto.js";
 							Arto.init({
 								uuid: "6f338d3b-28ec-4e51-aae4-3e77727658ed",
-								widgetType: "search",
-								theme: {
-									triggerButtonColor: "#008009",
-									modalHeaderColor: "#805e00",
-									userMessageColor: "#dfbfbf",
-								},
+								widgetType: "chat"
 							});
 						`,
 					}}
