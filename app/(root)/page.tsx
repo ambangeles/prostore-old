@@ -6,7 +6,6 @@ const Homepage = async () => {
 
 	return (
 		<>
-			tet
 			<ProductList data={latestProducts} title="Newest Arrivals" limit={4} />
 		</>
 	);
