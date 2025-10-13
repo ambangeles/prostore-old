@@ -1,0 +1,35 @@
+STEPS TO CONFIGURE ANONYMOUS COMMITS IN GIT
+============================================
+
+1. Navigate to your project directory
+   cd /path/to/your/project
+
+2. Set anonymous username (local to the repository)
+   git config --local user.name "anonymous"
+
+3. Set anonymous email (local to the repository)
+   git config --local user.email "anonymous@localhost"
+
+4. Verify the configuration
+   git config --local --list | grep -E "(user.name|user.email)"
+
+   Expected output:
+   user.name=anonymous
+   user.email=anonymous@localhost
+
+
+IMPORTANT NOTES
+===============
+
+- Local only: Using --local means this only affects the specific repository, 
+  not your global Git settings
+
+- Email choice: Use anonymous@localhost or any email NOT associated with a 
+  GitHub account. Avoid using GitHub's noreply emails as they're linked to 
+  your account
+
+- Existing commits: This only affects new commits. Previous commits will 
+  retain their original author information
+
+- Per repository: You need to run these commands in each repository where 
+  you want anonymous commits
