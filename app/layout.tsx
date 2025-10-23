@@ -45,7 +45,7 @@ export default function RootLayout({
 						__html: `
 							import Arto from "https://media-staging.arto.chat/arto.js";
 							Arto.init({
-								uuid: "c74b0ef6-203a-434a-8169-92ecdab13ef7",
+								uuid: "78ea97bc-87c1-4915-8c29-dfad525255a6",
 								widgetType: "chat"
 							});
 						`,
