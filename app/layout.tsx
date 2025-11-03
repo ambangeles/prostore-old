@@ -45,8 +45,15 @@ export default function RootLayout({
 						__html: `
 							import Arto from "https://media-staging.arto.chat/arto.js";
 							Arto.init({
-								uuid: "5c4671d1-a1b1-43b3-ac5e-446d7a5c0cb3",
-								widgetType: "chat"
+								uuid: "ba04b9b3-0858-4bc1-b7bc-dba041eee498",
+								widgetType: "search",
+								theme: {
+								fonts: {
+									fontRegular: "https://media.arto.chat/fonts/a6f04a1d-74a1-4c81-a584-b85491352fd3/asst_pKp3LPZdsnvR9x8u8UtllYw0/ba04b9b3-0858-4bc1-b7bc-dba041eee498/search/Roboto_Condensed-Regular.ttf",
+									fontMedium: "https://media.arto.chat/fonts/a6f04a1d-74a1-4c81-a584-b85491352fd3/asst_pKp3LPZdsnvR9x8u8UtllYw0/ba04b9b3-0858-4bc1-b7bc-dba041eee498/search/Roboto_Condensed-Medium.ttf",
+									fontBold: "https://media.arto.chat/fonts/a6f04a1d-74a1-4c81-a584-b85491352fd3/asst_pKp3LPZdsnvR9x8u8UtllYw0/ba04b9b3-0858-4bc1-b7bc-dba041eee498/search/Roboto Condensed Bold.ttf"
+								}
+								}
 							});
 						`,
 					}}
